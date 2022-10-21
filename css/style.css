@@ -124,7 +124,19 @@
 
 .ex-10-icon {
     font-size: 60px;
+
+
+    animation: caricamento 1s linear infinite ;
 }
+
+@keyframes caricamento {
+
+    0%{
+    transform: rotate(1turn)
+     }
+}
+
+/* ---------- */
 .ex-11-icon {
     font-size: 60px;
 }
